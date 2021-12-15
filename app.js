@@ -1,7 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const gridDisplay = document.querySelector(' .grid ')
-    const scoreDisplay = document.getElementById(' score ')
-    const resultDisplay = document.getElementById(' results ')
+ document.addEventListener('DOMContentLoaded',  () =>  {
+    console.log('doc is ready');
+    const gridDisplay = document.querySelector('.grid')
+    const scoreDisplay = document.getElementById('score')
+    const resultDisplay = document.getElementById('results')
     const width = 4
     let squares = []
 
