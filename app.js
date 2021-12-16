@@ -1,5 +1,4 @@
  document.addEventListener('DOMContentLoaded',  () =>  {
-    console.log('doc is ready');
     const gridDisplay = document.querySelector('.grid')
     const scoreDisplay = document.getElementById('score')
     const resultDisplay = document.getElementById('results')
